@@ -42,7 +42,7 @@ h2 {
   width: 35%;
   height: 100%;
   background: #200f33;
-  padding: 60px 20px 80px;
+  padding: 60px 40px 80px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -51,10 +51,9 @@ h2 {
   color: #fff;
 }
 .left__title {
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 700;
-  margin-bottom: 32px;
-  text-decoration: underline;
+  margin-bottom: 42px;
   text-align: center;
 }
 .left__grid__row {
@@ -93,6 +92,7 @@ h2 {
 }
 
 .left__name__wrapper h1 {
+  font-size: 2.8rem;
   color: #97704a;
   margin-bottom: 20px;
 }
@@ -117,7 +117,7 @@ h2 {
   grid-template-columns: 40% 60%;
   align-items: center;
   gap: 20px;
-  font-size: 1rem;
+  font-size: 1.4rem;
 }
 .skills__bar {
   width: 80%;
@@ -156,26 +156,28 @@ h2 {
   padding: 40px 24px;
   display: flex;
   flex-direction: column;
-  gap: 36px;
+  gap: 80px;
 }
 .right__body section {
-  padding: 8px 24px;
+  padding: 24px 24px;
   background: lightgrey;
   border-radius: 20px;
 }
 .right__title {
   width: 100%;
-  font-size: 2rem;
-  font-weight: 700;
-  margin-bottom: 24px;
-  text-decoration: underline;
+  margin-bottom: 32px;
   text-align: start;
   position: relative;
   left: -8px;
 }
+.right__title h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-decoration: underline;
+}
 
 .right__about p {
-  font-size: 1rem;
+  font-size: 1.4rem;
   margin-bottom: 16px;
 }
 
@@ -184,7 +186,7 @@ h2 {
   margin-bottom: 16px;
 }
 .works__text__title {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 700;
   margin-bottom: 12px;
 }
@@ -192,7 +194,7 @@ h2 {
 .works__paraph__header {
   width: 100%;
   margin-bottom: 8px;
-  font-size: 1rem;
+  font-size: 1.4rem;
 }
 .works__paraph__header p:first-child {
   width: 60%;
@@ -201,7 +203,7 @@ h2 {
   font-style: italic;
 }
 .works__paraph__desc {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: rgb(80, 80, 80);
   margin-bottom: 16px;
 }
