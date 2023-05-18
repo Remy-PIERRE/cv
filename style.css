@@ -9,10 +9,7 @@ html {
 body {
   width: 100%;
   aspect-ratio: 21 / 29.7;
-  border: 1px solid #000;
   display: flex;
-
-  /* overflow: hidden; */
 }
 h1 {
   font-size: 2rem;
@@ -83,6 +80,7 @@ h2 {
   border-radius: 100px;
   background: #000;
   margin: 0 auto;
+  overflow: hidden;
 }
 .left__img__wrapper img {
   width: 100%;
