@@ -97,6 +97,12 @@ h2 {
 .left__name__wrapper span {
   color: #97704a;
 }
+.left__name__wrapper h2 {
+  margin-bottom: 20px;
+}
+.left__name__wrapper p {
+  font-size: 1.2rem;
+}
 
 .contact__text__wrapper {
   gap: 24px;
@@ -142,6 +148,7 @@ h2 {
 }
 .left__grid__col {
   width: 20%;
+  text-align: center;
 }
 .left__activities img {
   width: 100%;
